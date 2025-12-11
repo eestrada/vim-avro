@@ -12,7 +12,7 @@ let b:did_ftplugin = 1
 setlocal commentstring=//\ %s
 
 " Java/C style multi-line comments
-setlocal comments=sr:/*,mb:*,ex:*/
+setlocal comments=sr:/*,mb:*,ex:*/,://
 
 " How to wraps lines in comments
 setlocal formatoptions-=t
